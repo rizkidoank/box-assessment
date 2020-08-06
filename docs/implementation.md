@@ -10,8 +10,11 @@
 
 ### Server (Operational)
 - `jenkins` could be one of the CI/CD options
+- `nginx` could be one of the ingress
+- `AWS ALB` used as load balancer
 - `prometheus-operator` for observability
 - `AWS Parameter Store` for secret management
+- `Kubernetes RBAC` combined with `AWS IAM` for client access control
 - `Kubernetes ConfigMap` for config management
 - `Kubernetes Namespace` for environment separation
 - `Kubernetes PersistentVolume` for stateful storage
